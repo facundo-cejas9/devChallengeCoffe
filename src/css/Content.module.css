@@ -5,8 +5,9 @@
     align-items: center;
     position: absolute;
     margin-top: 10rem;
+    padding: 20px;
     background-color: #1B1D1F;
-    width: 90vw; /* El ancho será el 50% del ancho de la ventana del navegador */
+    max-width: 70vw; /* El ancho será el 50% del ancho de la ventana del navegador */
     border-radius: 1rem;
     
    
@@ -18,7 +19,7 @@
    flex-direction: column;
    flex-wrap: nowrap;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     align-items: center;
     
     

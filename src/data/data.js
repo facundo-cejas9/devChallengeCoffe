@@ -1,7 +1,7 @@
 export const Data = [
     {
         name: "Capuccino",
-        img: "./assets/capuccino.jpeg",
+        img: "./assets/cappuccino.webp",
         price: 5.20,
         rating: 4.75,
         popular: "popular",
@@ -31,7 +31,7 @@ export const Data = [
 
     {
         name: "Coffe chocolate",
-        img: "./assets/coffechocolate.webp",
+        img: "./assets/cafechocolate.webp",
         price: 4.00,
         rating: 4.65,
         votes: "(122 votes)",
