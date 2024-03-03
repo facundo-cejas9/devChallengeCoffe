@@ -4,7 +4,7 @@
 .header {
     width: 100%;
     height: calc(1280px * 600 / 2500); /* Calcula la altura para mantener la relación de aspecto */
-    background-image: url(/src/assets/bg-cafe.jpg) ;
+    background-image: url(./assets/bg-cafe.jpg) ;
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el encabezado */
     background-position: center;
     background-repeat: no-repeat;

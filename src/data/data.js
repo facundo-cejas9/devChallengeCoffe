@@ -1,7 +1,7 @@
 export const Data = [
     {
         name: "Capuccino",
-        img: "./src/assets/capuccino.jpeg",
+        img: "./assets/capuccino.jpeg",
         price: 5.20,
         rating: 4.75,
         popular: "popular",
@@ -11,7 +11,7 @@ export const Data = [
 
     {
         name: "House Coffee",
-        img: "./src/assets/housecoffe.webp",
+        img: "./assets/housecoffe.webp",
         price: 3.50,
         rating: 4.85,
         popular: "popular",
@@ -21,7 +21,7 @@ export const Data = [
 
     {
         name: "Expresso Coffee",
-        img: "./src/assets/expresso.webp",
+        img: "./assets/expresso.webp",
         price: 2.50,
         rating: 4.95,
         votes: "(55 votes)",
@@ -31,7 +31,7 @@ export const Data = [
 
     {
         name: "Coffe chocolate",
-        img: "./src/assets/coffechocolate.webp",
+        img: "./assets/coffechocolate.webp",
         price: 4.00,
         rating: 4.65,
         votes: "(122 votes)",
@@ -41,7 +41,7 @@ export const Data = [
 
     {
         name: "Valentines Day Coffee",
-        img: "./src/assets/valentine.webp",
+        img: "./assets/valentine.webp",
         price: 5.50,
         rating: "No Rating",
         available: "available"
