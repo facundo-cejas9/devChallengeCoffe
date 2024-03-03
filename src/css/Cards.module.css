@@ -1,0 +1,144 @@
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    height: 100%;
+    width: 80%;
+    
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #1B1D1F;
+    padding: 0px;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: row;
+   gap: 35%;
+   align-items: center;
+   justify-content: space-between;
+   
+    
+    
+}
+
+.cardSubContent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   gap: 5px;
+   
+   
+   
+}
+
+.contentSoldOut {
+    display: flex;
+}
+
+.subContent {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.nameOfCoffe {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FEF7EE ;
+    display: flex;
+    margin: 0;
+   
+}
+
+
+
+.cardImage {
+    width: 100%;
+    border-radius: 2rem;
+    height: 200px;
+}
+
+.popular {
+    position: absolute;
+    margin: 0;
+    padding: 5px 15px;
+    font-size: 10px;
+    background-color: #F6C768;
+    border-radius: 2rem;
+    color: #111315;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: monospace;
+}
+
+
+.noPopular {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 5px 15px;
+    font-size: 10px;
+    background-color: #F6C768;
+    border-radius: 2rem;
+    color: #111315;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: monospace;
+}
+
+.price {
+    padding: 5px 10px;
+    background-color: #BEE3CC;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #1B1D1F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating {
+    color: #FEF7EE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.notRating {
+    color: #6F757C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.votes {
+    color: #6F757C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.soldOut {
+    color: #ED735D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+@media (max-width: 1200px) {
+    .cardsContainer {
+        grid-template-columns: repeat(2, 1fr)
+      
+    }
+  }
+
+  @media (max-width: 850px) {
+    .cardsContainer {
+        grid-template-columns: repeat(1, 1fr)
+      
+    }
+  }
