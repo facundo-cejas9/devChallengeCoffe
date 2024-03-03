@@ -15,7 +15,7 @@ export const Coffee = ({ coffee }) => {
             </div>
             <div className={styles.cardSubContent}>
                 <div className={styles.subContent}>
-                    <img src={coffee.rating === "No Rating" ? "/src/assets/star.svg" : "/src/assets/Star_fill.svg"} />
+                    <img src={coffee.rating === "No Rating" ? "./src/assets/star.svg" : "./src/assets/Star_fill.svg"} />
                     <p className={styles.rating}>{coffee.rating}</p>
                     <p className={styles.votes}>{coffee.votes}</p>
                 </div>
